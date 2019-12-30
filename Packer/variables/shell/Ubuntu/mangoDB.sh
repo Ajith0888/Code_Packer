@@ -7,3 +7,4 @@ sudo apt-get update -y
 sudo apt-get install mongodb-org -y --allow-unauthenticated
 sudo systemctl enable mongod
 sudo systemctl start mongod
+echo -e "Hello, World!"
