@@ -3,5 +3,4 @@
 sleep 300
 sudo zypper up -y
 sudo zypper install -y nginx
-sudo systemctl enable nginx
 sudo systemctl start nginx
