@@ -9,4 +9,3 @@ sudo swapon /swapfile
 echo '/swapfile none swap sw 0 0' >> /etc/fstab
 sudo zypper addrepo -G -f http://pkg.jenkins.io/opensuse-stable/ jenkins
 sudo zypper install -y jenkins
-/etc/init.d/jenkins start
